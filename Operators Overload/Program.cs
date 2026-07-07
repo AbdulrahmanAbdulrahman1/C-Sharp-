@@ -66,8 +66,8 @@ class Program
     static void Main()
     {
         // Creating two Employee objects with different IDs, names will differ too
-        Employee emp1 = new Employee(101, "Mhd", "Imad");
-        Employee emp2 = new Employee(102, "Imad", "AlDaker");
+        Employee emp1 = new Employee(201, "Abdelrahman", "abdelrahman");
+        Employee emp2 = new Employee(202, "Abdelrahman", "Ahmed");
 
         // Display the details of the first and second employee objects
         Console.WriteLine("Employee 1: " + emp1.ToString());
